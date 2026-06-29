@@ -203,44 +203,6 @@ function HistoriaSection() {
             <p>
               Los conventos fueron los grandes talleres de esta cocina barroca: las monjas dominicas, agustinas y clarisas cocinaban con la misma complejidad ornamental con la que los maestros churriguerescos tallaban los retablos dorados de sus iglesias. El mole, con sus treinta ingredientes y sus horas de metate, es la expresión culinaria más perfecta del <em>horror vacui</em> barroco.
             </p>
-            <div className="reveal-stagger" style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              <div className="dato-card">
-                <span className="dato-icon" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                    <polyline points="9 22 9 12 15 12 15 22"/>
-                  </svg>
-                </span>
-                <div>
-                  <h4>Conventos Fundadores</h4>
-                  <p>Santa Rosa, Santa Mónica, Santa Clara y La Concepción fueron los cuatro pilares de la gastronomía conventual poblana del siglo XVII.</p>
-                </div>
-              </div>
-              <div className="dato-card">
-                <span className="dato-icon" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-                    <path d="M12 6v6l4 2"/>
-                  </svg>
-                </span>
-                <div>
-                  <h4>Mestizaje Culinario</h4>
-                  <p>La fusión de ingredientes prehispánicos (chiles, cacao, pepita) con técnicas europeas (fritos, estofados, repostería) creó una cocina única en el mundo.</p>
-                </div>
-              </div>
-              <div className="dato-card">
-                <span className="dato-icon" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                  </svg>
-                </span>
-                <div>
-                  <h4>Patrimonio UNESCO</h4>
-                  <p>La gastronomía mexicana fue declarada Patrimonio Cultural Inmaterial de la Humanidad en 2010, siendo la cocina poblana uno de sus pilares fundamentales.</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
