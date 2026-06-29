@@ -1,0 +1,4 @@
+/* App.css — Minimal overrides, everything is in index.css */
+#root {
+  isolation: isolate;
+}
