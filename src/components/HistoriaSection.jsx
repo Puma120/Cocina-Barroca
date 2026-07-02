@@ -14,7 +14,7 @@ export function HistoriaSection() {
         <div className="historia-grid reveal" ref={gridRef}>
           <div className="historia-img-wrap">
             <img
-              src="/puebla_catedral_mio.webp"
+              src="/Foto_descripción.jpg"
               alt="Catedral de Puebla al atardecer, arquitectura barroca churrigueresca"
               loading="lazy"
             />

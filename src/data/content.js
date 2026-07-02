@@ -3,7 +3,7 @@ export const CHEFS = {
     id: 'Xime',
     nombre: 'Ximena Desiderio Luna',
     titulo: 'Técnico Superior Universitario',
-    foto: '/chef_mujer.avif',
+    foto: '/Xime.jpg',
     bio: 'Del grupo 3ro "B", en el turno matutino, responsable del area de reposteria',
   },
   carlos: {

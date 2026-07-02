@@ -545,7 +545,7 @@ a:hover { color: var(--color-gold-bright); }
 }
 
 .platillos-inner {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-md);
 }
@@ -606,7 +606,7 @@ a:hover { color: var(--color-gold-bright); }
 .platillo-img-wrap {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 3/2;
+  aspect-ratio: 1/1;
 }
 
 .platillo-img-wrap img {
@@ -614,12 +614,12 @@ a:hover { color: var(--color-gold-bright); }
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
-  filter: brightness(0.88) saturate(1.1);
+  filter: brightness(0.95) saturate(1.15);
 }
 
 .platillo-card:hover .platillo-img-wrap img {
-  transform: scale(1.06);
-  filter: brightness(0.95) saturate(1.2);
+  transform: scale(1.08);
+  filter: brightness(1.05) saturate(1.25);
 }
 
 .platillo-categoria-badge {
@@ -694,16 +694,16 @@ a:hover { color: var(--color-gold-bright); }
 }
 
 .chef-mini-avatar {
-  width: 28px;
-  height: 28px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid rgba(184, 134, 11, 0.4);
+  border: 1px solid rgba(184, 134, 11, 0.6);
 }
 
 .chef-mini-name {
   font-family: var(--font-heading);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   color: var(--color-text-muted);
 }
