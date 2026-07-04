@@ -30,6 +30,18 @@ export function PlatilloModal({ platillo, onClose }) {
       id="platillo-modal"
     >
       <div className="modal-panel">
+        <button
+          className="modal-close-btn"
+          onClick={onClose}
+          aria-label="Cerrar detalle del platillo"
+          id="modal-close-btn"
+        >
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+            <line x1="1" y1="1" x2="13" y2="13"/>
+            <line x1="13" y1="1" x2="1" y2="13"/>
+          </svg>
+        </button>
+
         {/* Hero image with close button overlaid */}
         <div className="modal-hero-overlay">
           <img
@@ -37,17 +49,6 @@ export function PlatilloModal({ platillo, onClose }) {
             src={platillo.imagen}
             alt={platillo.nombre}
           />
-          <button
-            className="modal-close-btn"
-            onClick={onClose}
-            aria-label="Cerrar detalle del platillo"
-            id="modal-close-btn"
-          >
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-              <line x1="1" y1="1" x2="13" y2="13"/>
-              <line x1="13" y1="1" x2="1" y2="13"/>
-            </svg>
-          </button>
         </div>
 
         {/* Body */}
