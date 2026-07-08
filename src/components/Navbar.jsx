@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const NAV_LINKS = [
+  { id: 'home',          label: 'Inicio' },
   { id: 'historia',      label: 'Historia del Barroco' },
   { id: 'ingredientes',  label: 'Ingredientes de la Época' },
   { id: 'abstract',      label: 'Abstract' },
@@ -73,12 +74,6 @@ export function Navbar({ currentPage, onNavigate }) {
         aria-hidden={!menuOpen}
       >
         <div className="navbar-drawer-inner">
-          <button
-            className={`navbar-drawer-item ${currentPage === 'home' ? 'navbar-drawer-item--active' : ''}`}
-            onClick={() => handleNav('home')}
-          >
-            Inicio
-          </button>
           {NAV_LINKS.map((link) => (
             <button
               key={link.id}
