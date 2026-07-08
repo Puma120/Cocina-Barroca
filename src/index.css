@@ -723,6 +723,9 @@ a:hover { color: var(--color-gold-bright); }
   cursor: pointer;
   transition: all var(--transition-normal);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .platillo-card::before {
@@ -804,6 +807,7 @@ a:hover { color: var(--color-gold-bright); }
   padding: var(--space-md);
   position: relative;
   z-index: 2;
+  flex: 1;
 }
 
 .platillo-info h3 {
@@ -821,6 +825,7 @@ a:hover { color: var(--color-gold-bright); }
   line-height: 1.65;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

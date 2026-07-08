@@ -62,7 +62,7 @@ export const PLATILLOS = [
     id: 'convento',
     nombre: 'Convento',
     categoria: 'postre',
-    imagen: '/postre_tortitas_mio.jpg',
+    imagen: '/Convento.jpeg',
     descripcionCorta: 'Petit four inspirado en la cocina conventual barroca. Una fusión de especias, piloncillo y crema de almendra.',
     descripcion: 'Para este petit four tomamos inspiración de distintos ingredientes y sabores comúnmente usados en la época barroca, principalmente en la cocina conventual, cuando las monjas, al verse responsables de de cocinar la comida que se serviría a figuras importantes del México católico o en fiestas religiosas idearon nuevos platillos que integraban ingredientes de las culturas presentes en la época, así,  especias como la canela, clavo, pimienta y chile, endulzantes como el piloncillo, acompañamientos como la crema de almendra que perduran en nuestra gastronomía actual',
     historia: 'Aunque visto principalmente como una corriente pictórica el barroco no solo se limitó a estos rubros del arte y no tardó en encontrar manera de incorporarse al arte culinario.',
