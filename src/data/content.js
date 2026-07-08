@@ -17,7 +17,7 @@ export const CHEFS = {
     id: 'Nahomi',
     nombre: 'Nahomi Valeria Viveros Romero',
     titulo: 'Técnico Superior Universitario',
-    foto: '/Nahomi.jpg',
+    foto: '/Nahomi.jpeg',
     bio: 'Del grupo 3ro "B", en el turno matutino, responsable del area de operación de bar',
   },
    Xime: {
