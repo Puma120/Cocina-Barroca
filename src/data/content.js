@@ -10,7 +10,7 @@ export const CHEFS = {
     id: 'Yureim',
     nombre: 'Yureim Rodríguez Rendón ',
     titulo: 'Técnico Superior Universitario',
-    foto: '/Yure.jpg',
+    foto: '/Yureim.jpeg',
     bio: 'Del grupo 3B, del turno matutino, encargada del área de bases culinarias.',
   },
    Nahomi: {
