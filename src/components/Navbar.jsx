@@ -21,7 +21,11 @@ export function Navbar({ currentPage, onNavigate }) {
   useEffect(() => { setMenuOpen(false) }, [currentPage])
 
   const handleNav = (id) => {
-    onNavigate(id)
+    if (currentPage === id) {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } else {
+      onNavigate(id)
+    }
     setMenuOpen(false)
   }
 
